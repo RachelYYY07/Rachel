@@ -4,7 +4,7 @@ import { TodoInput } from './components/TodoInput';
 import { TodoList } from './components/TodoList';
 function App() {
   const[todoList,setTodoList]=useState([])
-  console.log(todoList)
+  
   return (
     <>
     <div className="App">
